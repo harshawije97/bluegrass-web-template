@@ -8,7 +8,7 @@ const getSamsungProducts = async (slug: string | null, take: number, skip: numbe
     try {
         if (slug) {
             const response = await fetch(
-                `${process.env.ROOT_URL!}/api/products/list/bytype?type=${slug}&brand=samsung&take=${String(take)}&skip=${String(skip)}`,
+                `${process.env.ROOT_URL!}/api/products/list/bytype?type=${slug}&take=${String(take)}&skip=${String(skip)}`,
                 {
                     headers: {
                         "Content-Type": "application/json",

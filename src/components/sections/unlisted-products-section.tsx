@@ -21,18 +21,20 @@ function UnlistedProductsSection() {
                 alt="hero"
                 width={1200}
                 height={900}
-                className="object-cover h-[650px] rounded-lg"
+                className="object-cover md:h-[650px] h-[450px] rounded-lg opacity-60"
               />
-              <div className="flex flex-col gap-y-4 absolute top-12 left-8">
+              <div className="flex flex-col gap-y-3 absolute top-12 left-8">
                 <h2 className="lg:text-2xl text-xl font-semibold">
                   Playstation 5 Pro
                 </h2>
-                <p className="font-light w-[300px]">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Recusandae similique iusto a quos illo esse.
+                <p className="font-light w-[300px] text-sm">
+                  Entertainment beyond your imagination
                 </p>
                 <div className="mt-4">
-                  <Button variant={"secondary"} className="bg-white text-black">
+                  <Button
+                    variant={"secondary"}
+                    className="bg-white text-black font-semibold text-sm rounded-full"
+                  >
                     Quick Look
                   </Button>
                 </div>
@@ -41,33 +43,33 @@ function UnlistedProductsSection() {
             <section className="flex flex-col gap-y-4">
               <div className="w-full relative">
                 <Image
-                  src={"https://i.ibb.co/XkDS6Ks/vr-quest.png"}
+                  src={"https://i.ibb.co/1Z8PpWk/vision-2.png"}
                   alt="hero"
                   width={1550}
                   height={620}
-                  className="object-cover h-[350px] rounded-lg"
+                  className="object-cover h-[350px] rounded-lg opacity-70"
                 />
-                <div className="flex flex-col gap-y-4 absolute top-12 left-8">
-                  <h2 className="lg:text-2xl text-xl font-semibold">
-                    Meta Quest 3
+                <div className="flex flex-col gap-y-2 absolute top-12 left-8">
+                  <h2 className="lg:text-2xl text-xl font-medium">
+                    Apple Vision Pro
                   </h2>
                   <p className="font-light w-[300px]">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Imagination beyond your limits
                   </p>
                   <div className="mt-4">
                     <Button
-                      variant={"link"}
-                      className="text-white text-wrap p-0"
+                      variant={"secondary"}
+                      className="bg-white text-black font-semibold text-sm rounded-full"
                     >
-                      More Details
+                      Browse
                     </Button>
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row gap-x-5 w-full h-full">
+              <div className="flex md:flex-row flex-col md:gap-x-5 gap-y-4 w-full h-full">
                 <div className="w-full h-full relative">
                   <Image
-                    src={"https://i.ibb.co/1Z8PpWk/vision-2.png"}
+                    src={"https://i.ibb.co/b5PLNBmN/image-qr.png"}
                     alt="hero"
                     width={1000}
                     height={726}
@@ -76,12 +78,28 @@ function UnlistedProductsSection() {
                 </div>
                 <div className="w-full h-full relative">
                   <Image
-                    src={"https://i.ibb.co/D42tSCD/jbl-img.jpg"}
+                    src={"https://i.ibb.co/1YyH9rC3/flip-jbl.png"}
                     alt="hero"
-                    width={1000}
-                    height={726}
-                    className="object-center h-[300px] rounded-lg"
+                    width={920}
+                    height={560}
+                    className="object-center h-[220px] md:h-[300px] rounded-lg"
                   />
+                  <div className="flex flex-col gap-y-2 absolute top-12 left-8">
+                    <h2 className="lg:text-2xl text-xl font-medium">
+                      JBL Speakers
+                    </h2>
+                    <p className="font-light w-[300px] text-sm">
+                      Sound & Music for your entertainment
+                    </p>
+                    <div className="mt-4">
+                      <Button
+                        variant={"secondary"}
+                        className="bg-[#1C1917] text-white px-6 text-sm rounded-full"
+                      >
+                        Browse
+                      </Button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>

@@ -43,7 +43,7 @@ export function ItemsGridApple() {
       <div className="min-w-full md:hidden h-auto flex flex-wrap justify-start items-center gap-4 py-8 px-6">
         {appleItems.map((item, index) => (
           <div
-            className="min-w-[150px] h-[170px] flex flex-col items-center justify-center rounded-lg bg-white/20 relative overflow-hidden"
+            className="w-[145px] h-[170px] flex flex-col items-center justify-center rounded-lg bg-white/20 relative overflow-hidden"
             key={index}
           >
             <div className="absolute inset-0 flex justify-center items-center z-50">
@@ -197,7 +197,7 @@ export function ItemsGridSamsung() {
       <div className="min-w-full md:hidden h-auto flex flex-wrap justify-start items-center gap-4 py-8 px-6">
         {items.map((item, index) => (
           <div
-            className="min-w-[150px] h-[170px] flex flex-col items-center justify-center rounded-lg bg-white/20 relative overflow-hidden"
+            className="w-[145px] h-[170px] flex flex-col items-center justify-center rounded-lg bg-white/20 relative overflow-hidden"
             key={index}
           >
             <div className="absolute inset-0 flex justify-center items-center z-50">

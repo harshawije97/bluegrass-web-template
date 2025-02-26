@@ -101,7 +101,7 @@ const headsetProductRoutes = [
     {
         id: crypto.randomUUID(),
         name: 'Headphones',
-        slug: 'headphones',
+        slug: 'earphones',
         onFetch: (param: string) => getHeadsets(param, 4, 0),
     },
     {
